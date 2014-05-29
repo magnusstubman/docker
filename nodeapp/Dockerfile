@@ -13,5 +13,5 @@ ADD app/ /
 
 RUN npm install
 
-CMD ["node", "index.js"]
+CMD ["node", "app.js"]
 EXPOSE 7000
