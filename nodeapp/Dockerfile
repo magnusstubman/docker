@@ -9,7 +9,7 @@ RUN apt-get update
 RUN apt-get install -y nodejs
 RUN node -v
 
-ADD src/ /
+ADD app/ /
 
 RUN npm install
 
